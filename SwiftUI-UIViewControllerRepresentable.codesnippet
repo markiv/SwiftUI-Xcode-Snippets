@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>svcr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct &lt;#SomeView#&gt;: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -&gt; &lt;#SomeViewControllerType#&gt; {
+        let vc = &lt;#SomeViewControllerType#&gt;()
+        // Configure view controller
+        // vc.delegate = context.coordinator
+        return vc
+    }
+
+    func updateUIViewController(_ uiViewController: &lt;#SomeViewControllerType#&gt;, context: Context) {
+        // Update the view controller when the context (e.g. environment) changes
+    }
+
+    class Coordinator: NSObject, &lt;#SomeViewControllerTypeDelegate#&gt; {
+        let parent: &lt;#SomeView#&gt;
+
+        init(_ parent: &lt;#SomeView#&gt;) {
+            self.parent = parent
+        }
+        // Delegate methods?
+    }
+
+    func makeCoordinator() -&gt; Coordinator {
+        Coordinator(self)
+    }
+}
+
+#if DEBUG
+struct &lt;#SomeView#&gt;_Previews: PreviewProvider {
+    static var previews: some View {
+        &lt;#SomeView#&gt;()
+    }
+}
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>249CEB22-BEF8-4E86-8262-BAB86F2D08DD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Template for when you want to wrap a UIKit View Controller into a SwiftUI View</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI View Controller Representable</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

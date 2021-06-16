@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>svr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct Temp: UIViewRepresentable {
+    func makeUIView(context: Context) -&gt; &lt;#SomeUIViewType#&gt; {
+        let view = &lt;#SomeUIViewType#&gt;(frame: .zero)
+        // Configure view
+        // view.delegate = context.coordinator
+        return view
+    }
+
+    func updateUIView(_ uiView: &lt;#SomeUIViewType#&gt;, context: Context) {
+        // Update the view when the context (e.g. environment) changes
+    }
+
+    // Optionally, handle any view delegate methods in a coordinator
+    /*
+    class Coordinator: NSObject, &lt;#SomeViewControllerTypeDelegate#&gt; {
+        let parent: Temp
+
+        init(_ parent: Temp) {
+            self.parent = parent
+        }
+        // Delegate methods?
+    }
+
+    func makeCoordinator() -&gt; Coordinator {
+        Coordinator(self)
+    }
+    */
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EE349074-06C2-4B25-8A8F-C3F3A670F35D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI UIViewRepresentable</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
