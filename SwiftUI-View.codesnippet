@@ -11,7 +11,7 @@
 		<key>IDECodeSnippetContents</key>
 		<string>struct &lt;#Name#&gt;: View {
     var body: some View {
-        &lt;#Text("Hello")#&gt;
+        &lt;#Text("Hello, world!")#&gt;
     }
 }
 		</string>
