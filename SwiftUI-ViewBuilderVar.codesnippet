@@ -3,21 +3,23 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>vbv</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>@ViewBuilder var &lt;#name#&gt;: some View {
+    &lt;#code#&gt;
+}</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>EF721AF2-67AC-4473-B3AF-27523F55916F</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>A @ViewBuilder variable</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>ViewBuilder var</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,26 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>emojiFlag</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>extension String {
+    var emojiFlag: String {
+        String(uppercased().unicodeScalars.compactMap { UnicodeScalar(0x1F1A5 + $0.value) }.map(Character.init))
+    }
+}
+		</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>17E0FCAB-5FF8-4257-A612-27139437777F</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>String extension for Unicode flags</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>emojiFlag</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

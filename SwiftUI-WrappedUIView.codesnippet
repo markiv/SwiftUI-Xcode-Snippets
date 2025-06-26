@@ -3,21 +3,26 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>uv</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>struct Wrapped: UIViewRepresentable {
+    let uiView: UIView
+    func makeUIView(context: Context) -&gt; UIView { uiView }
+    func updateUIView(_ uiView: UIViewType, context: Context) {}
+}
+		</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>3AD38E33-A514-4AA0-8D70-4F81A85965C0</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>A template for any wrapped UIView</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>Wrapped UIView</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

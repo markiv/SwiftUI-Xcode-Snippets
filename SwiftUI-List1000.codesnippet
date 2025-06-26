@@ -3,21 +3,23 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>l1</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>List(0..&lt;1000) { index in
+    Text("\(index)")
+}</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>5C48B573-787C-4613-9293-4DD1A8942228</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>A List of 1000 simple items</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>List 1000</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>clr</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>#colorLiteral(red: 0.9_725_490_196, green: 0.5_411_764_706, blue: 0.2_117_647_059, alpha: 1)</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>315CF2C4-92AF-41FE-B00C-4B087DCF2B9C</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>A Swift color literal</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>Color Literal</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,28 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>swl</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>Image(systemName: "swift")
+    .resizable()
+    .scaledToFit()
+    .foregroundStyle(
+        LinearGradient(colors: [Color(#colorLiteral(red: 0.9_725_490_196, green: 0.5_411_764_706, blue: 0.2_117_647_059, alpha: 1)), Color(#colorLiteral(red: 0.9_921_568_627, green: 0.1_254_901_961, blue: 0.1_254_901_961, alpha: 1))], startPoint: .top, endPoint: .bottom)
+    )
+    .padding()
+		</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>66182527-7A29-4111-AA4F-F7123FA9796E</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>The Swift logo as a placeholder view</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>Swift Logo</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

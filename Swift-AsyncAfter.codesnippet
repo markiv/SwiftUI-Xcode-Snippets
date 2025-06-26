@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asyncAfter</string>
-	<key>IDECodeSnippetCompletionScopes</key>
-	<array>
-		<string>All</string>
-	</array>
-	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#1#&gt;) {
+	<dict>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>after</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>All</string>
+		</array>
+		<key>IDECodeSnippetContents</key>
+		<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#1#&gt;) {
     &lt;#// do something#&gt;
 }</string>
-	<key>IDECodeSnippetIdentifier</key>
-	<string>EDC68391-4610-41F6-BAF1-D0812CC4D8CB</string>
-	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
-	<key>IDECodeSnippetTitle</key>
-	<string>asyncAfter</string>
-	<key>IDECodeSnippetUserSnippet</key>
-	<true/>
-	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
-</dict>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>EDC68391-4610-41F6-BAF1-D0812CC4D8CB</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Swift</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>Perform a closure after a time interval</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>Async After</string>
+		<key>IDECodeSnippetUserSnippet</key>
+		<true/>
+		<key>IDECodeSnippetVersion</key>
+		<integer>2</integer>
+	</dict>
 </plist>

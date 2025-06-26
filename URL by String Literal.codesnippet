@@ -3,21 +3,26 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>uxs</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>extension URL: @retroactive ExpressibleByStringLiteral {
+    public init(stringLiteral value: StringLiteralType) {
+        self.init(string: value)!
+    }
+}
+		</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>DCD24BBF-5216-4235-B7AB-3135D99A9937</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>URL extension to make URLs expressible by string literals</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>URL by String Literal</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

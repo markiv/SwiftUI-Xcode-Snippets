@@ -3,21 +3,23 @@
 <plist version="1.0">
 	<dict>
 		<key>IDECodeSnippetCompletionPrefix</key>
-		<string>canc</string>
+		<string>items</string>
 		<key>IDECodeSnippetCompletionScopes</key>
 		<array>
 			<string>All</string>
 		</array>
 		<key>IDECodeSnippetContents</key>
-		<string>var cancellables = Set&lt;AnyCancellable&gt;()</string>
+		<string>@State private var items = Locale.commonISOCurrencyCodes.prefix(10)
+    .compactMap { Locale.autoupdatingCurrent.localizedString(forCurrencyCode: $0) }
+		</string>
 		<key>IDECodeSnippetIdentifier</key>
-		<string>4B572332-F366-4BF4-AAE3-6E511698D33D</string>
+		<string>308CAE62-0796-4DD4-A25D-DA0385420214</string>
 		<key>IDECodeSnippetLanguage</key>
 		<string>Xcode.SourceCodeLanguage.Swift</string>
 		<key>IDECodeSnippetSummary</key>
-		<string>Combine set of cancellables</string>
+		<string>A SwiftUI List with sample items (currency names)</string>
 		<key>IDECodeSnippetTitle</key>
-		<string>cancellables</string>
+		<string>SwiftUI List sample items</string>
 		<key>IDECodeSnippetUserSnippet</key>
 		<true/>
 		<key>IDECodeSnippetVersion</key>

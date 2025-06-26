@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>st</string>
-	<key>IDECodeSnippetCompletionScopes</key>
-	<array>
-		<string>All</string>
-	</array>
-	<key>IDECodeSnippetContents</key>
-	<string>@State private var &lt;#name#&gt; = &lt;#value#&gt;
-</string>
-	<key>IDECodeSnippetIdentifier</key>
-	<string>CCA5D383-B7F6-42AA-B953-E412F2E201C4</string>
-	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
-	<key>IDECodeSnippetTitle</key>
-	<string>SwiftUI State Variable</string>
-	<key>IDECodeSnippetUserSnippet</key>
-	<true/>
-	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
-</dict>
+	<dict>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>stt</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>All</string>
+		</array>
+		<key>IDECodeSnippetContents</key>
+		<string>@State private var &lt;#name#&gt; = &lt;#value#&gt;
+		</string>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>CCA5D383-B7F6-42AA-B953-E412F2E201C4</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Swift</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>A SwiftUI @State variable</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>SwiftUI State Variable</string>
+		<key>IDECodeSnippetUserSnippet</key>
+		<true/>
+		<key>IDECodeSnippetVersion</key>
+		<integer>2</integer>
+	</dict>
 </plist>
