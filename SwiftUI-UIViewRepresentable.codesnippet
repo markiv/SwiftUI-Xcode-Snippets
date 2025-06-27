@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>svr</string>
-	<key>IDECodeSnippetCompletionScopes</key>
-	<array>
-		<string>All</string>
-	</array>
-	<key>IDECodeSnippetContents</key>
-	<string>struct Temp: UIViewRepresentable {
+    <dict>
+        <key>IDECodeSnippetCompletionPrefix</key>
+        <string>svr</string>
+        <key>IDECodeSnippetCompletionScopes</key>
+        <array>
+            <string>All</string>
+        </array>
+        <key>IDECodeSnippetContents</key>
+        <string>struct Temp: UIViewRepresentable {
     func makeUIView(context: Context) -&gt; &lt;#SomeUIViewType#&gt; {
         let view = &lt;#SomeUIViewType#&gt;(frame: .zero)
         // Configure view
@@ -37,17 +37,17 @@
     }
     */
 }</string>
-	<key>IDECodeSnippetIdentifier</key>
-	<string>EE349074-06C2-4B25-8A8F-C3F3A670F35D</string>
-	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
-	<key>IDECodeSnippetTitle</key>
-	<string>SwiftUI UIViewRepresentable</string>
-	<key>IDECodeSnippetUserSnippet</key>
-	<true/>
-	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
-</dict>
+        <key>IDECodeSnippetIdentifier</key>
+        <string>EE349074-06C2-4B25-8A8F-C3F3A670F35D</string>
+        <key>IDECodeSnippetLanguage</key>
+        <string>Xcode.SourceCodeLanguage.Swift</string>
+        <key>IDECodeSnippetSummary</key>
+        <string>Template for when you want to wrap a UIKit View into a SwiftUI View</string>
+        <key>IDECodeSnippetTitle</key>
+        <string>SwiftUI UIViewRepresentable</string>
+        <key>IDECodeSnippetUserSnippet</key>
+        <true/>
+        <key>IDECodeSnippetVersion</key>
+        <integer>2</integer>
+    </dict>
 </plist>
